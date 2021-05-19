@@ -1,0 +1,10 @@
+{
+  "./src/**/*.{js,jsx,ts,tsx}": [
+    "yarn lint",
+    "yarn test --bail --findRelatedTests --passWithNoTests --watchAll false",
+    "yarn prettier"
+  ],
+  "./test/**/*.{js,jsx,ts,tsx}": [
+    "yarn prettier"
+  ]
+}

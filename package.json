@@ -1,0 +1,13 @@
+{
+  "name": "prettier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Amir Shiri",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier -w ."
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
+}
